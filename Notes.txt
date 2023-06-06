@@ -1,0 +1,23 @@
+Spring Data JPA (Java Persistence API):
+	JPA is the interface while hibernate is the implementation.
+
+	The Java Persistenec API provides a specification for persisting,reading and managing data from your java 	object to your relational tables in the database.
+
+	Model Layer:
+		@Entity
+		@Id
+		@Column
+
+	DAO Layer
+		@Repository:The @ Repository is a marker for any class that fulfills the role or stereotype of a 		repository that is also known as Data Access Object or DAO.
+
+		There will be a interface which extends
+
+		JpaRepository<ModelclassName,ID Type> performs CRUD operations and also paging and sorting
+
+	Service Layer
+		@Service:This annotation is used with classes that provides some business functionalities.
+
+	Controller Layer
+		@RestController: @Controller + @Response Body
+
